@@ -1,6 +1,14 @@
-# Product-DAG Low-Pass Denoising
+# Signal Processing over Product DAGs: Shift Operator and Filters
 
-Code and data accompanying the paper. A product-DAG low-pass filter
+By Sundeep Prabhakar Chepuri, Antonio G. Marques, Maulik Devmurari, and Gonzalo Mateos
+
+Claude AI was used to assist in generating this code
+
+Code and data accompanying the aforementioned paper. 
+
+# Product DAG Low-Pass Denoising
+
+A product DAG low-pass filter
 $\hat{\mathbf S}=\mathbf W_1(\tilde{\mathbf H}\odot\mathbf C)\mathbf W_2^\top$ is fit two ways —
 **unconstrained** ($\tilde{\mathbf H}$, $n_1n_2$ parameters, matrix-free conjugate gradients) and **rank-1 separable** ($\tilde{\mathbf H}=\mathbf h_1\mathbf h_2^\top$, $n_1+n_2$ parameters, the proposed alternating least squares / ALS) — and both are compared against a **no-filter** baseline, on **synthetic** data and on **real** weekly water-quality measurements from the River Thames.
 
